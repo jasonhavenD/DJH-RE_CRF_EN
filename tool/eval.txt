@@ -1,0 +1,25 @@
+processed 12169 tokens with 509 phrases; found: 329 phrases; correct: 300.
+accuracy:  95.53%; precision:  91.19%; recall:  58.94%; FB1:  71.60
+                 : precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+             Cost: precision: 100.00%; recall: 100.00%; FB1: 100.00  1
+              DOC: precision:  97.44%; recall:  74.51%; FB1:  84.44  39
+       DOCarising: precision: 100.00%; recall: 100.00%; FB1: 100.00  1
+              ORG: precision:  88.24%; recall:  63.03%; FB1:  73.53  85
+             ORGO: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+           ORGhas: precision: 100.00%; recall: 100.00%; FB1: 100.00  1
+          ORGmade: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+   ORGtransferred: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+               P1: precision:  89.13%; recall:  74.55%; FB1:  81.19  46
+               P2: precision: 100.00%; recall:  55.56%; FB1:  71.43  5
+            P2ity: precision: 100.00%; recall: 100.00%; FB1: 100.00  1
+        P2ization: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+               P3: precision: 100.00%; recall:  16.67%; FB1:  28.57  1
+             PROG: precision: 100.00%; recall:  93.75%; FB1:  96.77  30
+            PROGs: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+              REL: precision:  91.67%; recall:  62.26%; FB1:  74.16  72
+           RELDOT: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+             TECH: precision: 100.00%; recall:  20.00%; FB1:  33.33  1
+              WEA: precision:  88.37%; recall:  38.78%; FB1:  53.90  43
+      WEAfeatures: precision: 100.00%; recall: 100.00%; FB1: 100.00  1
+             WEAs: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+     WEAsPentagon: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
