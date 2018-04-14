@@ -3770,7 +3770,7 @@ Congress	NNP	B-ORGANIZATION	4	acl:relcl	O
 to	TO	O	8	dobj	B-ORG
 resist	VB	O	11	mark	O
 White	NNP	B-ORGANIZATION	8	xcomp	O
-House	NNP	I-ORGANIZATION	13	compound	REL>
+House	NNP	I-ORGANIZATION	13	compound	O
 plans	VBZ	O	14	nsubj	B-ORG
 to	TO	O	11	ccomp	I-ORG
 hand	NN	O	16	mark	O
@@ -6240,7 +6240,7 @@ providing	VBG	O	21	acl	O
 less	JJR	O	25	advmod	O
 than	IN	O	23	mwe	O
 200	CD	B-NUMBER	26	nummod	O
-Wh/kg	kg	kg	22	dobj	kg
+Wh/kg	kg	kg	22	dobj	O
 can	MD	O	29	aux	O
 be	VB	O	29	auxpass	O
 replaced	VBN	O	16	acl:relcl	O
@@ -6251,7 +6251,7 @@ cell	NN	O	29	nmod	O
 driving	VBG	O	33	acl	O
 more	JJR	O	37	advmod	O
 than	IN	O	35	mwe	O
-12,000	CD	B-NUMBER	38	nummod	kg
+12,000	CD	B-NUMBER	38	nummod	O
 Wh/kg	kg	kg	34	dobj	O
 -RRB-	NNP	O	5	punct	O
 
@@ -7317,7 +7317,7 @@ several	JJ	O	19	advmod	O
 hundred	CD	B-NUMBER	20	nummod	O
 kilowatts	NNS	O	17	dobj	O
 to	TO	O	23	case	O
-onboard	VB	O	23	amod	REL>
+onboard	VB	O	23	amod	O
 radar	NN	O	17	nmod	B-WEA
 ,	,	O	5	punct	I-WEA
 communications	NNS	O	5	nsubjpass	O
@@ -12972,7 +12972,7 @@ deputy	NN	B-TITLE	18	punct	O
 assistant	NN	I-TITLE	22	compound	B-P2
 secretary	NN	I-TITLE	22	compound	I-P2
 of	IN	I-TITLE	18	appos	I-P2
-the	DT	I-TITLE	25	case	REL>
+the	DT	I-TITLE	25	case	O
 Army	NNP	I-TITLE	25	det	O
 for	IN	O	22	nmod	O
 Plans	NNPS	O	27	case	O
@@ -13019,7 +13019,7 @@ secretary	NN	O	63	appos	O
 of	IN	O	70	case	B-P2
 the	DT	O	70	det	I-P2
 Army	NNP	B-ORGANIZATION	67	nmod	I-P2
-for	IN	I-ORGANIZATION	73	case	REL>
+for	IN	I-ORGANIZATION	73	case	O
 Acquisition	NNP	I-ORGANIZATION	73	compound	O
 Policy	NNP	I-ORGANIZATION	70	nmod	O
 and	CC	O	73	cc	O
@@ -13047,7 +13047,7 @@ Should-Cost/Will-Cost	Will-Cost	Will-Cost	96	amod	B-REL
 program	NN	O	91	nmod	I-REL
 ;	:	O	61	punct	I-REL
 this	DT	O	99	det	O
-effort	NN	O	100	nsubj	Will-Cost
+effort	NN	O	100	nsubj	O
 encourages	VBZ	O	61	parataxis	B-PROG
 program	NN	O	102	compound	I-PROG
 managers	NNS	O	100	dobj	O
@@ -13167,7 +13167,7 @@ unit	NN	O	26	compound	O
 cost	NN	O	22	dobj	O
 of	IN	O	33	case	O
 the	DT	O	33	det	O
-M855A1/M856A1	M856A1	M856A1	33	compound	M856A1
+M855A1/M856A1	M856A1	M856A1	33	compound	O
 lead-free	JJ	O	33	amod	O
 5.56	CD	B-NUMBER	33	nummod	O
 
@@ -14323,7 +14323,7 @@ President	NNP	B-TITLE	20	nsubj	O
 and	CC	O	24	cc	O
 CEO	NNP	B-TITLE	24	conj	O
 ,	,	O	24	punct	O
-Dr.	NNP	O	30	compound	REL>
+Dr.	NNP	O	30	compound	O
 Andreas	NNP	B-PERSON	30	compound	O
 Knackstedt	NNP	I-PERSON	24	appos	B-P1
 .	.	O	20	punct	I-P1
@@ -15937,7 +15937,7 @@ Congress	NNP	B-ORGANIZATION	4	acl:relcl	O
 to	TO	O	8	dobj	B-ORG
 resist	VB	O	11	mark	O
 White	NNP	B-ORGANIZATION	8	xcomp	O
-House	NNP	I-ORGANIZATION	13	compound	REL>
+House	NNP	I-ORGANIZATION	13	compound	O
 plans	VBZ	O	14	nsubj	B-ORG
 to	TO	O	11	ccomp	I-ORG
 hand	NN	O	16	mark	O
@@ -17597,7 +17597,7 @@ you	PRP	O	22	dep	O
 very	RB	O	25	advmod	O
 much.PRN	VBP	O	23	dep	O
 :	:	O	25	punct	O
-2011/T57	T57	T57	25	dep	T57
+2011/T57	T57	T57	25	dep	O
 -	:	O	25	punct	O
 19docno	CD	O	25	dep	O
 :	:	O	25	punct	O
@@ -17612,7 +17612,7 @@ speeds14	NN	O	34	nmod	O
 :	:	O	34	punct	O
 53	CD	B-NUMBER	60	nsubj	O
 ,	,	O	40	punct	O
-Technology/EngineeringFull	EngineeringFull	EngineeringFull	45	compound	EngineeringFull
+Technology/EngineeringFull	EngineeringFull	EngineeringFull	45	compound	O
 size	NN	O	45	compound	O
 imageThe	NN	O	45	compound	O
 Navy	NNP	B-ORGANIZATION	50	nmod:poss	B-ORG
@@ -18589,7 +18589,7 @@ Strategic	NNP	O	30	compound	B-P2
 Forces	NNPS	O	30	compound	I-P2
 Policy	NNP	O	30	compound	I-P2
 Advisor	NNP	O	24	conj	I-P2
-for	IN	O	34	case	REL>
+for	IN	O	34	case	O
 Senator	NNP	B-TITLE	34	compound	O
 Jon	NNP	B-PERSON	34	compound	B-P1
 Kyl	NNP	I-PERSON	30	nmod	I-P1
@@ -18792,7 +18792,7 @@ interactive	JJ	O	73	amod	I-TECH
 doctrine	NN	O	73	compound	I-TECH
 training	NN	O	73	compound	I-TECH
 courseware	NN	O	69	dobj	O
-for	IN	O	77	case	REL>
+for	IN	O	77	case	O
 the	DT	O	77	det	O
 U.S.	NNP	B-ORGANIZATION	77	compound	B-ORG
 Army	NNP	I-ORGANIZATION	69	nmod	I-ORG
@@ -18812,10 +18812,11 @@ Excellence	NNP	O	9	nmod	O
 -LRB-	NNP	O	13	punct	O
 MCoE	NNP	O	11	appos	O
 -RRB-	NNP	O	13	punct	O
+indefinite	JJ	O	17	amod	O
 delivery/indefinite	indefinite	indefinite	17	amod	O
 quantity	NN	O	21	compound	O
 -LRB-	NNP	O	19	punct	O
-ID/IQ	IQ	IQ	17	appos	IQ
+ID/IQ	IQ	IQ	17	appos	O
 -RRB-	NNP	O	19	punct	O
 contract	NN	O	11	dep	B-PROG
 and	CC	O	5	cc	I-PROG
@@ -20566,7 +20567,7 @@ procurement	NN	O	47	compound	I-P2
 chief	NN	O	47	compound	I-P2
 ,	,	O	40	appos	I-P2
 said	VBD	O	40	punct	I-P2
-the	DT	O	51	det	REL>
+the	DT	O	51	det	O
 information	NN	O	52	nsubj	O
 contained	VBN	O	49	ccomp	O
 in	IN	O	56	case	O
@@ -20620,7 +20621,7 @@ and	CC	O	38	nsubj	O
 political	JJ	O	22	cc	O
 analysts	NNS	O	25	amod	O
 ,	,	O	22	conj	O
-such	JJ	O	25	punct	REL>
+such	JJ	O	25	punct	O
 as	IN	O	30	case	O
 Michael	NNP	B-PERSON	27	mwe	O
 Byers	NNP	I-PERSON	30	compound	O
@@ -21956,7 +21957,7 @@ E-mail	NN	B-URL	24	dep	O
 :	:	O	24	punct	O
 onrpublicaffairs@navy.milWeb	NN	B-URL	24	dep	O
 :	:	O	57	punct	O
-www.onr.navy.milFacebook	NN	officeofnavalresearchFOR	61	compound	officeofnavalresearchFOR
+www.onr.navy.milFacebook	NN	officeofnavalresearchFOR	61	compound	O
 :	:	O	61	compound	O
 www.facebook.com/officeofnavalresearchFOR	officeofnavalresearchFOR	O	57	dep	O
 IMMEDIATE	NNP	O	61	punct	O
@@ -22690,12 +22691,12 @@ E-mail	NN	B-URL	38	dep	O
 :	:	O	38	punct	O
 onrpublicaffairs@navy.milWeb	NN	B-URL	38	dep	O
 :	:	O	38	punct	O
-www.onr.navy.milFacebook	NN	officeofnavalresearchdocno	58	dep	officeofnavalresearchdocno
+www.onr.navy.milFacebook	NN	officeofnavalresearchdocno	58	dep	O
 :	:	O	58	punct	O
 www.facebook.com/officeofnavalresearchdocno	officeofnavalresearchdocno	O	57	compound	O
 :	:	O	58	nsubj	O
 431039Daily	CD	O	38	dep	O
-ReportSECAF	NNP	24	65	compound	24
+ReportSECAF	NNP	24	65	compound	O
 Visits	NNP	B-ORGANIZATION	65	compound	B-REL
 Guam11/24/2014AFA	24	I-ORGANIZATION	65	compound	I-REL
 CaptionBodyTextAir	NNP	B-TITLE	65	compound	I-REL
@@ -22872,7 +22873,7 @@ Box	NNP	B-PERSON	14	det	O
 Score-John	NNP	I-PERSON	14	compound	O
 A.	NN	I-PERSON	14	compound	O
 Tirpak	NNP	I-PERSON	14	compound	O
-11/24/2014The	24	24	14	compound	24
+11/24/2014The	24	24	14	compound	O
 Lot	NNP	O	14	compound	O
 8	CD	B-NUMBER	14	compound	O
 contract	NN	O	14	nummod	O
@@ -22894,7 +22895,7 @@ Lot	NNP	O	23	nmod	O
 Details-John	NNP	B-PERSON	36	compound	O
 A.	NN	I-PERSON	36	compound	O
 Tirpak	NNP	I-PERSON	36	compound	O
-11/24/2014The	24	24	36	compound	24
+11/24/2014The	24	24	36	compound	O
 Lot	NNP	O	36	compound	O
 8	CD	B-NUMBER	36	nummod	O
 contract	NN	O	28	dep	O
@@ -22924,7 +22925,7 @@ Contract	NNP	O	64	compound	O
 Awarded-John	NNP	O	64	compound	O
 A.	NN	O	64	compound	O
 Tirpak	NNP	O	64	compound	O
-11/24/2014The	24	24	64	compound	24
+11/24/2014The	24	24	64	compound	O
 Pentagon	NNP	B-ORGANIZATION	43	nmod	O
 on	IN	O	66	case	O
 Friday	NNP	B-DATE	67	nmod	O
@@ -23052,7 +23053,7 @@ last	JJ	B-DATE	6	amod	O
 week	NN	I-DATE	4	nmod:tmod	O
 that	IN	O	14	mark	B-ORG
 NRA	NNP	B-ORGANIZATION	11	compound	O
-chairman	NN	B-TITLE	11	compound	REL>
+chairman	NN	B-TITLE	11	compound	O
 Lachezar	NNP	B-PERSON	11	compound	B-P1
 Kostov	NNP	I-PERSON	14	nsubj	I-P1
 had	VBD	O	14	aux	B-REL
@@ -23743,7 +23744,7 @@ of	IN	O	14	case	O
 less	JJR	O	13	advmod	O
 than	IN	O	11	mwe	O
 1	CD	B-NUMBER	14	nummod	O
-C/W	W	W	9	nmod	W
+C/W	W	W	9	nmod	O
 and	CC	O	6	cc	O
 offers	VBZ	O	6	conj	O
 extreme	JJ	O	19	amod	O
@@ -23835,7 +23836,7 @@ and	CC	O	34	cc	I-P2
 general	JJ	B-TITLE	37	amod	O
 manager	NN	I-TITLE	34	conj	O
 of	IN	O	42	case	O
-Freescale	NNP	B-ORGANIZATION	42	nmod:poss	REL>
+Freescale	NNP	B-ORGANIZATION	42	nmod:poss	O
 's	POS	O	39	case	O
 RF	NNP	O	42	compound	O
 group	NN	O	34	nmod	O
@@ -23917,7 +23918,7 @@ products	NNS	O	16	amod	O
 ,	,	O	13	nmod	O
 please	VB	O	18	punct	O
 visit	NN	O	20	compound	O
-www.Freescale.com/productlongevity	productlongevity	productlongevity	18	dobj	productlongevity
+www.Freescale.com/productlongevity	productlongevity	productlongevity	18	dobj	O
 .	.	O	18	punct	O
 
 Additionally	RB	O	0	ROOT	O
@@ -23974,7 +23975,7 @@ sales	NNS	O	13	compound	I-ORG
 office	NN	O	8	dobj	I-ORG
 or	CC	O	13	cc	O
 visit	NN	O	16	compound	O
-www.freescale.com/RFmilitary	RFmilitary	RFmilitary	13	conj	RFmilitary
+www.freescale.com/RFmilitary	RFmilitary	RFmilitary	13	conj	O
 .	.	O	7	punct	O
 About	IN	O	0	ROOT	O
 FreescaleFreescale	NNP	O	3	case	O
@@ -24555,6 +24556,7 @@ of	IN	O	60	case	O
 IndiaOriginally	NNP	O	58	nmod	O
 published	VBD	O	53	ccomp	O
 athttp	NN	O	61	dobj	O
+:	:	O	62	punct	O
 www.business-standard.com/article/pti-stories/china-virtually-confirms-3rd-hypersonic-missile-test-114121000947_1.htmlPosted	article	article	78	nsubj	O
 on	IN	O	68	case	O
 December	NNP	B-DATE	66	nmod	O
@@ -24957,7 +24959,7 @@ economies07	NN	O	18	nmod	O
 :	:	O	16	punct	O
 00	CD	B-NUMBER	32	nummod	O
 ,	,	O	23	punct	O
-Technology/Energy	Energy	Energy	23	conj	Energy
+Technology/Energy	Energy	Energy	23	conj	O
 &	CC	O	23	cc	O
 Green	NNP	O	23	conj	O
 Tech	NNP	O	32	compound	O
@@ -26220,7 +26222,7 @@ of	IN	O	116	case	O
 the	DT	O	116	det	O
 DoD	NNP	B-MISC	116	compound	O
 Mobile	NNP	B-TITLE	116	compound	O
-Classified	NNP	B-MISC	116	compound	IT
+Classified	NNP	B-MISC	116	compound	O
 CapabilityCyberspace/IT	IT	IT	116	compound	O
 Workforce	NNP	I-MISC	116	compound	O
 Continuous	NNP	I-MISC	116	amod	O
@@ -26238,7 +26240,7 @@ Navy	NNP	I-ORGANIZATION	122	compound	B-ORG
 website	NN	O	19	parataxis	O
 sponsored	VBN	O	122	acl	O
 by	IN	O	126	case	O
-the	DT	O	126	det	REL>
+the	DT	O	126	det	O
 Department	NNP	O	123	nmod	O
 of	IN	O	129	case	O
 the	DT	O	129	det	O
@@ -26322,7 +26324,7 @@ onrpublicaffairs@navy.milWeb	NN	B-URL	174	dep	O
 :	:	O	205	punct	O
 www.onr.navy.milFacebook	NN	officeofnavalresearchFOR	209	compound	O
 :	:	O	209	compound	O
-www.facebook.com/officeofnavalresearchFOR	officeofnavalresearchFOR	O	205	dep	officeofnavalresearchFOR
+www.facebook.com/officeofnavalresearchFOR	officeofnavalresearchFOR	O	205	dep	O
 IMMEDIATE	NNP	O	209	punct	O
 RELEASE	NNP	B-DATE	209	dep	O
 :	:	I-DATE	211	nummod	O
@@ -27007,7 +27009,7 @@ E-mail	NN	B-URL	38	dep	O
 :	:	O	38	punct	O
 onrpublicaffairs@navy.milWeb	NN	B-URL	38	dep	O
 :	:	O	38	punct	O
-www.onr.navy.milFacebook	NN	officeofnavalresearchdocno	38	dep	officeofnavalresearchdocno
+www.onr.navy.milFacebook	NN	officeofnavalresearchdocno	38	dep	O
 :	:	O	54	punct	O
 www.facebook.com/officeofnavalresearchdocno	officeofnavalresearchdocno	O	63	nsubj	O
 :	:	O	58	case	O
@@ -27692,7 +27694,7 @@ Relations	NNP	I-ORGANIZATION	11	compound	I-P2
 Committee	NNP	I-ORGANIZATION	11	compound	I-P2
 chairman	NN	B-TITLE	11	compound	I-P2
 in	IN	O	5	xcomp	I-P2
-the	DT	O	15	case	REL>
+the	DT	O	15	case	O
 next	JJ	O	15	det	O
 Congress	NNP	B-ORGANIZATION	15	amod	O
 ,	,	O	5	nmod	O
@@ -29359,7 +29361,7 @@ regarding	VBG	O	5	acl	O
 quantity	NN	O	6	dobj	O
 procured	VBN	O	3	dep	O
 ,	,	O	8	punct	O
-country/companies	companies	companies	8	conj	companies
+country/companies	companies	companies	8	conj	O
 supplying	VBG	O	10	acl	O
 the	DT	O	13	det	O
 equipment	NN	O	11	dobj	O
@@ -29432,7 +29434,7 @@ SARah	NNP	O	71	dep	B-WEA
 satellite-based	JJ	O	84	amod	O
 radar	NN	O	84	compound	O
 reconnaissance	NN	O	84	compound	O
-systemJapan/Vietnam	Vietnam	Vietnam	71	dep	Vietnam
+systemJapan/Vietnam	Vietnam	Vietnam	71	dep	O
 -	:	O	66	punct	O
 Radar	NN	O	88	compound	B-WEA
 Imaging	NNP	O	88	compound	I-WEA
@@ -29440,7 +29442,7 @@ SatellitesCanada	NNP	O	66	dep	I-WEA
 -	:	O	66	punct	O
 RADARSAT	NNP	B-ORGANIZATION	92	compound	O
 Constellation	NNP	O	92	compound	O
-MissionAirborneUK/Germany/Italy	Germany	Germany	66	dep	Germany
+MissionAirborneUK/Germany/Italy	Germany	Germany	66	dep	O
 Spain	NNP	B-COUNTRY	92	dep	O
 -	:	O	66	punct	O
 Captor	NN	O	98	compound	O
@@ -29462,12 +29464,14 @@ NavalUS	NNP	O	66	dep	O
 Air	NNP	O	117	compound	O
 and	CC	O	112	cc	O
 Missile	NNP	O	112	conj	O
+Defense	NNP	O	117	compound	O
 Radar	NNP	O	117	compound	O
 programGermany	JJ	O	66	dep	O
 -	:	O	66	punct	O
 TRS-4D	JJ	O	124	compound	O
 NR	NNP	O	124	compound	O
 Radar	NNP	O	124	compound	O
+Program3	NNP	O	124	compound	O
 AppendixFor	NNP	O	66	dep	O
 more	JJR	O	134	amod	B-ORG
 information	NN	O	134	compound	I-ORG
@@ -29517,7 +29521,7 @@ NewsOriginally	NNP	O	24	nsubj	O
 published	VBD	O	25	amod	O
 athttp	NN	O	17	dep	O
 :	:	O	25	punct	O
-www.navy.mil/submit/display.asp	submit	submit	30	amod	submit
+www.navy.mil/submit/display.asp	submit	submit	30	amod	O
 story_id	NN	O	25	dep	O
 =	$	O	30	amod	O
 85225Posted	CD	O	31	dep	O
@@ -30647,7 +30651,7 @@ contributions	NNS	O	11	dobj	O
 to	TO	O	16	case	O
 our	PRP$	O	16	nmod:poss	O
 security	NN	O	13	nmod	O
-24/7	7	7	16	nummod	7
+24/7	7	7	16	nummod	O
 ,	,	O	16	punct	O
 365	CD	B-DURATION	20	nummod	O
 days	NNS	I-DURATION	16	appos	O
@@ -32228,7 +32232,7 @@ in	IN	O	21	case	O
 the	DT	O	21	det	O
 air	NN	O	21	compound	B-WEA
 vehicle	NN	O	17	nmod	I-WEA
-and/or	or	or	21	cc	or
+and/or	or	or	21	cc	O
 engine	NN	O	21	conj	O
 that	WDT	O	25	nsubj	O
 caused	VBD	O	21	acl:relcl	O
@@ -32459,7 +32463,7 @@ competing	VBG	O	13	aux	O
 
 Source	NN	O	0	ROOT	O
 :	:	O	1	punct	O
-IHS/Daniel	Daniel	Daniel	6	compound	Daniel
+IHS/Daniel	Daniel	Daniel	6	compound	O
 WasserblyKey	NNP	I-PERSON	6	compound	O
 PointsThe	NNP	I-PERSON	6	compound	O
 size	NN	O	12	nsubjpass	O
@@ -32558,10 +32562,10 @@ that	IN	O	38	mark	O
 during	IN	O	27	case	O
 developmental	JJ	O	27	amod	O
 test/operational	operational	operational	27	amod	O
-test	NN	O	38	nmod	operational
+test	NN	O	38	nmod	O
 -LRB-	NN	O	29	punct	O
 DT/OT	OT	OT	27	appos	O
--RRB-	NNP	O	29	punct	OT
+-RRB-	NNP	O	29	punct	O
 events	NNS	O	27	dep	O
 ,	,	O	38	punct	O
 USMC	NNP	B-ORGANIZATION	34	compound	O
@@ -32751,7 +32755,7 @@ has	VBZ	O	71	aux	O
 developed	VBN	O	65	advcl	O
 a	DT	O	73	det	O
 plan	NN	O	71	dobj	O
-to	TO	O	75	mark	OT
+to	TO	O	75	mark	O
 address	VB	O	73	acl	O
 deficiencies	NNS	O	75	dobj	O
 outlined	VBN	O	76	acl	O
@@ -32873,7 +32877,7 @@ compartment	NN	O	12	nmod	O
 
 ``	``	O	0	ROOT	O
 The	DT	O	3	det	O
-DT/OT	OT	OT	4	nsubj	OT
+DT/OT	OT	OT	4	nsubj	O
 revealed	VBD	O	1	root	O
 that	IN	O	7	mark	O
 JLTVs	NNP	O	7	nsubj	B-WEAs

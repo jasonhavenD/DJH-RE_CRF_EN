@@ -57,7 +57,12 @@ if __name__ == '__main__':
 	with open(input, 'r', encoding='utf-8') as f:
 		sents = f.readlines()
 	pos_tagged_tokenses = pos_tag(sents)
-	
+	cnt = 0
+	for token_tags in pos_tagged_tokenses:
+		cnt += 1
+		for w_t in token_tags:
+			if len(w_t.split(r'\\')) != 2:
+				print(cnt, w_t)
 	with open(output, 'w', encoding='utf-8') as f:
 		for tokens in pos_tagged_tokenses:
 			f.write(delimiter.join(tokens))

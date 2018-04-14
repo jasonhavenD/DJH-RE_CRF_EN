@@ -42,7 +42,7 @@ if __name__ == '__main__':
 			ner = ner.strip().split('/')[1]
 			dep_1 = dep.strip().split('/')[1]
 			dep_2 = dep.strip().split('/')[2]
-			tar = tar.strip().split('/')[1]
+			tar = tar.strip().split(r'\\')[1]
 			if token == '' or tag == '' or ner == '' or dep_1 == '' or dep_2 == '' or tar == '':
 				continue
 			line.append(delimiter.join((token, tag, ner, dep_1, dep_2, tar)))

@@ -15,11 +15,15 @@
 	- raw.zip 提供的原始文本
 	- tagged.zip 提供的标注文本
 - src
-	- convert2utf8.py 将指定文件夹下的文件转换编码
-	- dependency_parse.py 依存分析保存到相应文件
-	- merge2input.py 合并特征文件保存到相应文件
-	- ner.py 实体识别保存到相应文件
-	- pos_tag.py 词性标记保存到相应文件
-	- sent_tokenize.py 分句保存到相应文件
+	- util
+		- convert2utf8.py 将指定文件夹下的文件转换编码
+		- dependency_parse.py 依存分析保存到相应文件
+		- merge2input.py 合并特征文件保存到相应文件
+		- ner.py 实体识别保存到相应文件
+		- pos_tag.py 词性标记保存到相应文件
+		- sent_tokenize.py 分句保存到相应文件
+		- word_tokenize.py 分词保存到相应文件
+		- leagal_triple_of_input.py 抽取训练文本中的三元组
+	- main.py 流程
 	- test.py 测试
-	- word_tokenize.py 分词保存到相应文件
+	- process_result_of_predict.py 处理预测结果

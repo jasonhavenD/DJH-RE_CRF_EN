@@ -14,10 +14,11 @@ import codecs
 from stanfordcorenlp import StanfordCoreNLP
 import re
 
+delimiter = '\t'
 if __name__ == '__main__':
 	print("test")
-	# input1 = "../data/sents/sents1.txt.utf-8"
-	# input2 = "../data/raw/raw1_sents.txt.utf-8"
+	# input1 = "../../data/sents/sents1.txt.utf-8"
+	# input2 = "../../data/raw/raw1_sents.txt.utf-8"
 	# text1 = codecs.open(input1, 'r', encoding='utf-8').readlines()
 	# text2 = codecs.open(input2, 'r', encoding='utf-8').readlines()
 	#
@@ -39,11 +40,11 @@ if __name__ == '__main__':
 	# 		print(token)
 	# nlp.close()
 	
-	# inputs = ["../data/tokens/tokens1.txt.utf-8", "../data/tagged/tokens1_tagged.txt.utf-8",
-	#           "../data/nered/nered1.txt.utf-8", "../data/dependency/dependency1.txt.utf-8",
-	#           "../data/raw/raw1_tagged.txt.utf-8"]
+	# inputs = ["../../data/tokens/tokens1.txt.utf-8", "../../data/tagged/tokens1_tagged.txt.utf-8",
+	#           "../../data/nered/nered1.txt.utf-8", "../../data/dependency/dependency1.txt.utf-8",
+	#           "../../data/raw/raw1_tagged.txt.utf-8"]
 	# 
-	# output = "../data/input/input1.txt.utf-8"
+	# output = "../../data/input/input1.txt.utf-8"
 	# 
 	# tokenses = codecs.open(inputs[0], 'r', encoding='utf-8').read()
 	# taggedes = codecs.open(inputs[1], 'r', encoding='utf-8').read()
@@ -53,7 +54,7 @@ if __name__ == '__main__':
 	# 
 	# print(len(tokenses.split()),len(taggedes.split()),len(neredes.split()),len(dependencies.split()),len(targets.split()))
 	
-	# input1 = "../data/input/input1.txt.utf-8"
+	# input1 = "../../data/input/input1.txt.utf-8"
 	# sent_cnt = 0
 	# with open(input1, 'r', encoding='utf-8') as f:
 	# 	for line in f.readlines():
@@ -63,10 +64,32 @@ if __name__ == '__main__':
 	# 			sent_cnt += 1
 	# print("total sents:", sent_cnt/2)
 	
-	input1 = "../data/input/input1.txt.utf-8"
-	num=0
+	# input1 = "../../data/input/input1.txt.utf-8"
+	# num=0
+	# with open(input1, 'r', encoding='utf-8') as f:
+	# 	for line in f.readlines():
+	# 		num+=1
+	# 		if len(line.split()) != 6:
+	# 			print(num,line)
+	
+	input1 = "../../data/raw/raw1_tagged.txt.utf-8"
+	cnt = 0
+	entities = []
+	rels = []
+	ileagal_tokens = []
 	with open(input1, 'r', encoding='utf-8') as f:
 		for line in f.readlines():
-			num+=1
-			if len(line.split()) != 6:
-				print(num,line)
+			tokens = line.split(delimiter)
+			cnt += 1
+			for item in tokens:
+				if item.strip() == '':
+					continue
+				if len(item.split('/'))!=2:
+					print(item)
+				# w, t = item.split('/')
+				# if t != 'O' and not t.endswith('REL'):
+				# 	entities.append(w)
+				# if t.endswith('REL'):
+				# 	rels.append(w)
+	print(len(entities), len(rels))
+	print('total : ', cnt)
