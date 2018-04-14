@@ -24,8 +24,8 @@ def dependency_parse(sents, nlp):
 delimiter = '\t'
 
 if __name__ == '__main__':
-	input = "../../data/sents/sents1.txt.utf-8"
-	output = "../../data/dependency/dependency1.txt.utf-8"
+	input = "../../data/sents/test.txt"
+	output = "../../data/dependency/test.txt"
 	
 	nlp = StanfordCoreNLP("c:/stanford-corenlp-full-2018-02-27")
 	
@@ -39,11 +39,11 @@ if __name__ == '__main__':
 	# for s in rst:
 	# 	print(s)
 	
-	# with open(output, 'w', encoding='utf-8') as f:
-	# 	for sent in rst:
-	# 		for dep, pre, cur in sent:
-	# 			f.write("{}/{}/{}".format(cur, pre, dep))
-	# 			f.write(delimiter)
-	# 		f.write('\n')
+	with open(output, 'w', encoding='utf-8') as f:
+		for sent in rst:
+			for dep, pre, cur in sent:
+				f.write("{}/{}/{}".format(cur, pre, dep))
+				f.write(delimiter)
+			f.write('\n')
 	
 	nlp.close()

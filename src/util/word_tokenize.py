@@ -20,8 +20,8 @@ def word_tokenize(sents, nlp):
 
 
 if __name__ == '__main__':
-	input = "../data/sents/sents2.txt.utf-8"
-	output = "../data/tokens/tokens2.txt.utf-8"
+	input = "../../data/sents/test.txt"
+	output = "../../data/tokens/test.txt"
 	
 	nlp = StanfordCoreNLP("c:/stanford-corenlp-full-2018-02-27")
 	

@@ -17,8 +17,8 @@ def sent_tokenize(text):
 
 
 if __name__ == '__main__':
-	input = "../data/raw/raw2.txt.utf-8"
-	output = "../data/sents/sents2.txt.utf-8"
+	input = "../../data/raw/test.txt"
+	output = "../../data/sents/test.txt"
 	
 	text = ""
 	with open(input, 'r', encoding='utf-8') as f:

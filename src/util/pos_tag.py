@@ -21,8 +21,8 @@ def pos_tag(tokenses):
 
 
 if __name__ == '__main__':
-	input = "../data/tokens/tokens1.txt.utf-8"
-	output = "../data/tagged/tokens1_tagged.txt.utf-8"
+	input = "../../data/tokens/test.txt"
+	output = "../../data/tagged/test.txt"
 	
 	tokenses = []
 	with open(input, 'r', encoding='utf-8') as f:

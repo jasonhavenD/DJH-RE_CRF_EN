@@ -13,10 +13,10 @@ import codecs
 
 delimiter = '\t'
 if __name__ == '__main__':
-	inputs = ["../../data/tokens/tokens2.txt.utf-8", "../../data/tagged/tokens2_tagged.txt.utf-8",
-	          "../../data/nered/nered2.txt.utf-8", "../../data/dependency/dependency2.txt.utf-8"]
+	inputs = ["../../data/tokens/test.txt", "../../data/tagged/test.txt",
+	          "../../data/nered/test.txt", "../../data/dependency/test.txt"]
 	
-	output = "../../data/input/input2.txt.utf-8"
+	output = "../../data/input/test.txt"
 	
 	tokenses = codecs.open(inputs[0], 'r', encoding='utf-8').readlines()
 	taggedes = codecs.open(inputs[1], 'r', encoding='utf-8').readlines()

@@ -72,24 +72,27 @@ if __name__ == '__main__':
 	# 		if len(line.split()) != 6:
 	# 			print(num,line)
 	
-	input1 = "../../data/raw/raw1_tagged.txt.utf-8"
-	cnt = 0
-	entities = []
-	rels = []
-	ileagal_tokens = []
-	with open(input1, 'r', encoding='utf-8') as f:
-		for line in f.readlines():
-			tokens = line.split(delimiter)
-			cnt += 1
-			for item in tokens:
-				if item.strip() == '':
-					continue
-				if len(item.split('/'))!=2:
-					print(item)
-				# w, t = item.split('/')
-				# if t != 'O' and not t.endswith('REL'):
-				# 	entities.append(w)
-				# if t.endswith('REL'):
-				# 	rels.append(w)
-	print(len(entities), len(rels))
-	print('total : ', cnt)
+	# input1 = "../../data/raw/raw1_tagged.txt.utf-8"
+	# cnt = 0
+	# entities = []
+	# rels = []
+	# ileagal_tokens = []
+	# with open(input1, 'r', encoding='utf-8') as f:
+	# 	for line in f.readlines():
+	# 		tokens = line.split(delimiter)
+	# 		cnt += 1
+	# 		for item in tokens:
+	# 			if item.strip() == '':
+	# 				continue
+	# 			if len(item.split('/'))!=2:
+	# 				print(item)
+	# 			# w, t = item.split('/')
+	# 			# if t != 'O' and not t.endswith('REL'):
+	# 			# 	entities.append(w)
+	# 			# if t.endswith('REL'):
+	# 			# 	rels.append(w)
+	# print(len(entities), len(rels))
+	# print('total : ', cnt)
+	
+	sentence = "Obama is the president of the United States."
+	

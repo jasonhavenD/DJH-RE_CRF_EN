@@ -57,8 +57,8 @@ def ner(sents, nlp):
 delimiter = '\t'
 
 if __name__ == '__main__':
-	input = "../data/sents/sents1.txt.utf-8"
-	output = "../data/nered/nered1.txt.utf-8"
+	input = "../../data/sents/test.txt"
+	output = "../../data/nered/test.txt"
 	
 	nlp = StanfordCoreNLP("c:/stanford-corenlp-full-2018-02-27")
 	
